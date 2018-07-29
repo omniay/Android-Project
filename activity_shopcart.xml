@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.e_commerceproject.Shopcart">
+
+
+    <ListView
+        android:id="@+id/listoforder"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:layout_x="-10dp"
+        android:layout_y="12dp"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="268dp"
+        android:layout_y="352dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/Remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="270dp"
+        android:layout_y="417dp"
+        android:text="Remove" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="178dp"
+        android:layout_height="53dp"
+        android:layout_x="0dp"
+        android:layout_y="342dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/proquan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="405dp"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="151dp"
+        android:layout_y="460dp"
+        android:text="Submit" />
+
+</AbsoluteLayout>

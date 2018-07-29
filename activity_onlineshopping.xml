@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.e_commerceproject.onlineshopping">
+
+
+    <ImageButton
+        android:id="@+id/mobiles"
+        android:layout_width="218dp"
+        android:layout_height="169dp"
+        android:layout_x="-3dp"
+        android:layout_y="349dp"
+        app:srcCompat="@drawable/mob" />
+
+    <ImageButton
+        android:id="@+id/laptops"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_x="217dp"
+        android:layout_y="341dp"
+        app:srcCompat="@drawable/lapyop" />
+
+    <ImageButton
+        android:id="@+id/makeup"
+        android:layout_width="175dp"
+        android:layout_height="169dp"
+        android:layout_x="-3dp"
+        android:layout_y="175dp"
+        app:srcCompat="@drawable/m" />
+
+    <ImageButton
+        android:id="@+id/clothes"
+        android:layout_width="218dp"
+        android:layout_height="169dp"
+        android:layout_x="184dp"
+        android:layout_y="170dp"
+        app:srcCompat="@drawable/clothes" />
+
+</AbsoluteLayout>

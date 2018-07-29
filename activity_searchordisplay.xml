@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.e_commerceproject.searchordisplay">
+
+    <EditText
+        android:id="@+id/prodedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="80dp"
+        android:ems="10"
+        android:hint="Ex:lipstic "
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/searchbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="230dp"
+        android:layout_y="74dp"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <ImageButton
+        android:id="@+id/searchbyvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="73dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:layout_x="1dp"
+        android:layout_y="211dp"
+        android:background="@color/colorAccent"
+
+        />
+
+    <Button
+        android:id="@+id/Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="145dp"
+        android:text="Display" />
+
+    <Button
+        android:id="@+id/shopcart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="143dp"
+        android:text="ShopCart" />
+
+</AbsoluteLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.e_commerceproject.SignIn">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="178dp"
+        android:text="Password"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_x="1dp"
+        android:layout_y="103dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="27dp"
+        android:text="Username"
+        android:textColor="@android:color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="296dp"
+        android:layout_height="53dp"
+        android:layout_x="2dp"
+        android:layout_y="255dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="131dp"
+        android:layout_height="86dp"
+        android:layout_x="130dp"
+        android:layout_y="344dp"
+        android:text="Login"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="437dp"
+        android:text="Forget Password?" />
+
+    <CheckBox
+        android:id="@+id/remeber"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="314dp"
+        android:text="Remember Me" />
+
+</AbsoluteLayout>

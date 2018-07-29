@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.e_commerceproject.addorder">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_x="143dp"
+        android:layout_y="31dp"
+        android:text="Quantity "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="108dp"
+        android:ems="10"
+        android:hint="1,2.."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addtoshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="186dp"
+        android:text="Add to ShopCart" />
+
+
+</AbsoluteLayout>
